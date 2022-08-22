@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "登陆页面",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}

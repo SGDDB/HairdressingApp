@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/home/product"],{"0c3a":function(t,n,e){},"17aa":function(t,n,e){"use strict";var a;e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return i})),e.d(n,"a",(function(){return a}));var o=function(){var t=this,n=t.$createElement;t._self._c},i=[]},"37b5":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={data:function(){return{productList:[{goods_id:0,img:"../../static/images/product/1.webp",name:"宣谷生姜洗发水",price:"￥68.00",slogan:"135人付款"},{goods_id:1,img:"../../static/images/product/2.webp",name:"沪美生姜洗发水",price:"￥129.00",slogan:"424人付款"},{goods_id:2,img:"../../static/images/product/3.webp",name:"好迪洗发水/洗发露",price:"￥39.90",slogan:"35人付款"},{goods_id:3,img:"../../static/images/product/4.webp",name:"小菲洗发水",price:"￥129.90",slogan:"3462人付款"}],categoryHeight:"150px",currentPageindex:0,headerPosition:"fixed",loadingText:"已经到头了..."}},onReady:function(){},onLoad:function(){},methods:{goto:function(){t.navigateTo({url:"../../pages/product/product"})}}};n.default=e}).call(this,e("543d")["default"])},"6cb3":function(t,n,e){"use strict";e.r(n);var a=e("17aa"),o=e("a478");for(var i in o)"default"!==i&&function(t){e.d(n,t,(function(){return o[t]}))}(i);e("7808");var c,u=e("f0c5"),r=Object(u["a"])(o["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],c);n["default"]=r.exports},7808:function(t,n,e){"use strict";var a=e("0c3a"),o=e.n(a);o.a},a478:function(t,n,e){"use strict";e.r(n);var a=e("37b5"),o=e.n(a);for(var i in a)"default"!==i&&function(t){e.d(n,t,(function(){return a[t]}))}(i);n["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/home/product-create-component',
+    {
+        'components/home/product-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("6cb3"))
+        })
+    },
+    [['components/home/product-create-component']]
+]);

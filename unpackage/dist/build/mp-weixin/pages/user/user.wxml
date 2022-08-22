@@ -1,0 +1,1 @@
+<view><upbackground vue-id="380011e0-1" bind:__l="__l"></upbackground><appointment vue-id="380011e0-2" bind:__l="__l"></appointment><orderlist vue-id="380011e0-3" bind:__l="__l"></orderlist><history vue-id="380011e0-4" bind:__l="__l"></history></view>

@@ -1,0 +1,21 @@
+
+.message-box {
+	width: 100%;
+	height: 120rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAAr0lEQVRYhWNgIAH8nyd/n2Q8X0GAFDtIccx/kvF8BYUR4Ji5CgUkY1pF0ygYMPB/voLBYMHk5RAa4VHHjDpmGDlmvlz//7kKCUThefLnEfrk1xOtDxnPl+vH7Zg5CgFEl0/z5Pcje4KsMm62gsMwd8w8+f3/5ygEkIznKhTQwjE0SMDDxDHvycQ0cMygSsDD3zGQvs5+IjFynL8nQR86xumYAcWjjhl1zJB3zP3BggF/7+t4g0I/xgAAAABJRU5ErkJggg==) #f0f0f0;
+	background-repeat: no-repeat;
+	background-size: 80rpx 80rpx;
+	background-position: 15rpx 10rpx;
+	margin: 0rpx 0rpx 10rpx 0rpx;
+	padding-left: 130rpx;
+}
+.message-tltle {
+	height: 65rpx;
+	line-height: 70rpx;
+	font-weight: 600;
+	font-size: 28rpx;
+}
+.message-content {
+	color: #0081ff;
+}
+

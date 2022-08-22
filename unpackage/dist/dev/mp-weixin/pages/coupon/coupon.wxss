@@ -1,0 +1,465 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+.u-line-1.data-v-032f11f4 {
+
+
+
+
+
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.u-line-2.data-v-032f11f4 {
+
+
+
+
+
+
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.u-line-3.data-v-032f11f4 {
+
+
+
+
+
+
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.u-line-4.data-v-032f11f4 {
+
+
+
+
+
+
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.u-line-5.data-v-032f11f4 {
+
+
+
+
+
+
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.u-border.data-v-032f11f4 {
+  border-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-style: solid;
+}
+.u-border-top.data-v-032f11f4 {
+  border-top-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-top-style: solid;
+}
+.u-border-left.data-v-032f11f4 {
+  border-left-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-left-style: solid;
+}
+.u-border-right.data-v-032f11f4 {
+  border-right-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-right-style: solid;
+}
+.u-border-bottom.data-v-032f11f4 {
+  border-bottom-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-bottom-style: solid;
+}
+.u-border-top-bottom.data-v-032f11f4 {
+  border-top-width: 0.5px !important;
+  border-bottom-width: 0.5px !important;
+  border-color: #dadbde !important;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+.u-reset-button.data-v-032f11f4 {
+  padding: 0;
+  background-color: transparent;
+
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+.u-reset-button.data-v-032f11f4::after {
+  border: none;
+}
+.u-hover-class.data-v-032f11f4 {
+  opacity: 0.7;
+}
+.u-primary-light.data-v-032f11f4 {
+  color: #ecf5ff;
+}
+.u-warning-light.data-v-032f11f4 {
+  color: #fdf6ec;
+}
+.u-success-light.data-v-032f11f4 {
+  color: #f5fff0;
+}
+.u-error-light.data-v-032f11f4 {
+  color: #fef0f0;
+}
+.u-info-light.data-v-032f11f4 {
+  color: #f4f4f5;
+}
+.u-primary-light-bg.data-v-032f11f4 {
+  background-color: #ecf5ff;
+}
+.u-warning-light-bg.data-v-032f11f4 {
+  background-color: #fdf6ec;
+}
+.u-success-light-bg.data-v-032f11f4 {
+  background-color: #f5fff0;
+}
+.u-error-light-bg.data-v-032f11f4 {
+  background-color: #fef0f0;
+}
+.u-info-light-bg.data-v-032f11f4 {
+  background-color: #f4f4f5;
+}
+.u-primary-dark.data-v-032f11f4 {
+  color: #398ade;
+}
+.u-warning-dark.data-v-032f11f4 {
+  color: #f1a532;
+}
+.u-success-dark.data-v-032f11f4 {
+  color: #53c21d;
+}
+.u-error-dark.data-v-032f11f4 {
+  color: #e45656;
+}
+.u-info-dark.data-v-032f11f4 {
+  color: #767a82;
+}
+.u-primary-dark-bg.data-v-032f11f4 {
+  background-color: #398ade;
+}
+.u-warning-dark-bg.data-v-032f11f4 {
+  background-color: #f1a532;
+}
+.u-success-dark-bg.data-v-032f11f4 {
+  background-color: #53c21d;
+}
+.u-error-dark-bg.data-v-032f11f4 {
+  background-color: #e45656;
+}
+.u-info-dark-bg.data-v-032f11f4 {
+  background-color: #767a82;
+}
+.u-primary-disabled.data-v-032f11f4 {
+  color: #9acafc;
+}
+.u-warning-disabled.data-v-032f11f4 {
+  color: #f9d39b;
+}
+.u-success-disabled.data-v-032f11f4 {
+  color: #a9e08f;
+}
+.u-error-disabled.data-v-032f11f4 {
+  color: #f7b2b2;
+}
+.u-info-disabled.data-v-032f11f4 {
+  color: #c4c6c9;
+}
+.u-primary.data-v-032f11f4 {
+  color: #3c9cff;
+}
+.u-warning.data-v-032f11f4 {
+  color: #f9ae3d;
+}
+.u-success.data-v-032f11f4 {
+  color: #5ac725;
+}
+.u-error.data-v-032f11f4 {
+  color: #f56c6c;
+}
+.u-info.data-v-032f11f4 {
+  color: #909399;
+}
+.u-primary-bg.data-v-032f11f4 {
+  background-color: #3c9cff;
+}
+.u-warning-bg.data-v-032f11f4 {
+  background-color: #f9ae3d;
+}
+.u-success-bg.data-v-032f11f4 {
+  background-color: #5ac725;
+}
+.u-error-bg.data-v-032f11f4 {
+  background-color: #f56c6c;
+}
+.u-info-bg.data-v-032f11f4 {
+  background-color: #909399;
+}
+.u-main-color.data-v-032f11f4 {
+  color: #303133;
+}
+.u-content-color.data-v-032f11f4 {
+  color: #606266;
+}
+.u-tips-color.data-v-032f11f4 {
+  color: #909193;
+}
+.u-light-color.data-v-032f11f4 {
+  color: #c0c4cc;
+}
+.u-safe-area-inset-top.data-v-032f11f4 {
+  padding-top: 0;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+}
+.u-safe-area-inset-right.data-v-032f11f4 {
+  padding-right: 0;
+  padding-right: constant(safe-area-inset-right);
+  padding-right: env(safe-area-inset-right);
+}
+.u-safe-area-inset-bottom.data-v-032f11f4 {
+  padding-bottom: 0;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.u-safe-area-inset-left.data-v-032f11f4 {
+  padding-left: 0;
+  padding-left: constant(safe-area-inset-left);
+  padding-left: env(safe-area-inset-left);
+}
+.data-v-032f11f4::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+
+
+
+
+
+
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-032f11f4 {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+.u-wrap.data-v-032f11f4 {
+  padding: 24rpx;
+}
+.coupon.data-v-032f11f4 {
+  margin: 30rpx auto;
+  background-color: #ffffff;
+  width: 700rpx;
+  color: #f0ad4e;
+  font-size: 28rpx;
+}
+.coupon .content.data-v-032f11f4 {
+  display: flex;
+  align-items: center;
+  padding: 80rpx 20rpx;
+  border: 10rpx;
+  background-color: #fff5f4;
+}
+.coupon .content .left .sum.data-v-032f11f4 {
+  font-size: 32rpx;
+}
+.coupon .content .left .sum .num.data-v-032f11f4 {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.coupon .content .centre.data-v-032f11f4 {
+  margin-left: 40rpx;
+}
+.coupon .content .centre .title.data-v-032f11f4 {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.coupon .content .right.data-v-032f11f4 {
+  margin-left: 30rpx;
+}
+.coupon .content .right .immediate-use.data-v-032f11f4 {
+  padding: 0 20rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  line-height: 50rpx;
+  background-color: #f0ad4e !important;
+  color: #ffffff !important;
+  font-size: 24rpx;
+  border: none;
+  word-break: keep-all;
+}
+.coupon .tips.data-v-032f11f4 {
+  padding: 0 20rpx;
+  border: 10rpx;
+  background-color: #f1f1f1;
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60rpx;
+  font-size: 24rpx;
+}
+.coupon .tips .circle-left.data-v-032f11f4,
+.coupon .tips .circle-right.data-v-032f11f4 {
+  position: absolute;
+  height: 36rpx;
+  width: 18rpx;
+  background-color: #f2f2f2;
+}
+.coupon .tips .circle-right.data-v-032f11f4 {
+  border-radius: 40rpx 0 0 40rpx;
+  right: 0;
+  top: -18rpx;
+}
+.coupon .tips .circle-left.data-v-032f11f4 {
+  border-radius: 0 40rpx 40rpx 0;
+  left: 0;
+  top: -18rpx;
+}
+.coupon .tips .rule.data-v-032f11f4 {
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.coupon .tips .rule text.data-v-032f11f4 {
+  margin-right: 10rpx;
+  flex: 1;
+}
+.jingdong.data-v-032f11f4 {
+  margin-top: 40rpx;
+  width: 700rpx;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+}
+.jingdong .left.data-v-032f11f4 {
+  padding: 0 30rpx;
+  background-color: #5f94e0;
+  text-align: center;
+  font-size: 28rpx;
+  color: #ffffff;
+}
+.jingdong .left .sum.data-v-032f11f4 {
+  margin-top: 50rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.jingdong .left .sum .num.data-v-032f11f4 {
+  font-size: 80rpx;
+}
+.jingdong .left .type.data-v-032f11f4 {
+  margin-bottom: 50rpx;
+  font-size: 24rpx;
+}
+.jingdong .right.data-v-032f11f4 {
+  padding: 20rpx 20rpx 0;
+  font-size: 28rpx;
+}
+.jingdong .right .top .title.data-v-032f11f4 {
+  margin-right: 60rpx;
+  line-height: 40rpx;
+}
+.jingdong .right .top .title .tag.data-v-032f11f4 {
+  padding: 4rpx 20rpx;
+  background-color: #499ac9;
+  border-radius: 20rpx;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+.jingdong .right .top .bottom.data-v-032f11f4 {
+  display: flex;
+  margin-top: 20rpx;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.jingdong .right .top .bottom .date.data-v-032f11f4 {
+  font-size: 20rpx;
+  flex: 1;
+}
+.jingdong .right .top .bottom .immediate-use.data-v-032f11f4 {
+  height: auto;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  border-radius: 40rpx;
+  line-height: 40rpx;
+  color: #758ea5;
+  border: 2rpx solid #758ea5;
+}
+.jingdong .right .tips.data-v-032f11f4 {
+  width: 100%;
+  line-height: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+.jingdong .right .tips .transpond.data-v-032f11f4 {
+  margin-right: 10rpx;
+}
+.jingdong .right .tips .explain.data-v-032f11f4 {
+  display: flex;
+  align-items: center;
+}
+.jingdong .right .tips .particulars.data-v-032f11f4 {
+  width: 30rpx;
+  height: 30rpx;
+  box-sizing: border-box;
+  padding-top: 8rpx;
+  border-radius: 50%;
+  text-align: center;
+}
+

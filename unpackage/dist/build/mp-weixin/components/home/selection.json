@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-badge": "/node-modules/uview-ui/components/u-badge/u-badge"
+  },
+  "component": true
+}

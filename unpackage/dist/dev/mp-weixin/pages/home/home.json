@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/home/u-nav",
+    "wrap": "/components/home/u-swiper",
+    "message": "/components/home/message",
+    "selection": "/components/home/selection",
+    "people": "/components/home/people",
+    "product": "/components/home/product"
+  }
+}

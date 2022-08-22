@@ -1,0 +1,1 @@
+<view><text class="h1">下单完成√</text><text class="h2">正在等待造型师确认订单</text><text class="h2">感谢您的耐心等候!</text><view class="loginForm_dl"><button type="default" data-event-opts="{{[['tap',[['goto',['$event']]]]]}}" bindtap="__e">返回首页</button></view></view>

@@ -1,0 +1,1 @@
+.grid-text{font-size:30rpx;margin-top:4rpx;color:$u-type-info}.piece-title{display:flex;height:40px;background-color:#f1f1f1;align-items:center;justify-content:space-between}.piece-title-text{font-weight:700;font-size:16px}.more{font-size:15px;color:#8f939c;padding:10px}

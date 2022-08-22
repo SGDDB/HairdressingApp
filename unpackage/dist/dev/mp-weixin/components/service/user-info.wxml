@@ -1,0 +1,1 @@
+<view class="user"><u-cell-group vue-id="5a661b0a-1" bind:__l="__l" vue-slots="{{['default']}}"><u-cell-item vue-id="{{('5a661b0a-2')+','+('5a661b0a-1')}}" title="账户余额:128.8" label="徐昕沛 18734660966" bind:__l="__l"></u-cell-item></u-cell-group></view>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "预约",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "type": "/components/service/type",
+    "user": "/components/service/user-info",
+    "person": "/components/service/person",
+    "date": "/components/service/date"
+  }
+}
